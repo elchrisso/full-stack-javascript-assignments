@@ -3,6 +3,7 @@ import Test from 'ava';
 import * as Assignment from './';
 
 Test('Numbers: Prime numbers are correct', t => {
+  console.log(Assignment.Primes)
   t.is(Assignment.Primes.length, 25);
 });
 
